@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards-container {
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+
+.actor-cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    margin-top: 50px;
+    margin-left: 5%;
+    background-color: #000;
+}
+
+.card {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #ffff;
+    font-size: 17px;
+    font-family: "Kadam Thmor Pro", sans-serif;
+    transition: 2s;
+}
+
+.card:hover {
+    transition: scale(1,02); 
+}
+
+.banner-1 {
+    background-image: url('../../assets/foto14.jpg');
+}
+.banner-2 {
+    background-image: url('../../assets/foto13.jpg');
+}
+.banner-3 {
+    background-image: url('../../assets/foto11.jpg');
+}
+
+.banner-1:hover {
+    background-image: url('../../assets/foto09.jpg');
+}
+.banner-2:hover {
+    background-image: url('../../assets/foto10.jpg');
+}
+.banner-3:hover {
+    background-image: url('../../assets/foto12.jpg');
+}
+
+@media(max-width:480px) {
+    .actor-cards-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 50px;
+    }
+}
+
+@media(max-width:768px) {
+    
+    .actor-cards-content {
+        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 50px;
+    }
+
+    .card {
+        height: 900px;
+        
+    }
+    
+}
+
+@media(max-width:1280px) {
+    
+}

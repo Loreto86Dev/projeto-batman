@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#cnt {
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+h1 {
+    font-family: "Kadam Thmor Pro", sans-serif;
+    margin-top: 60px;
+    color: aliceblue;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ft {
+    margin-top: 100px;
+    height: 1500px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+    row-gap: 50px;
+    column-gap: 20px;
+}
+
+.fts {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 400px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.fts:hover {
+    transform: scale(1.05);
+}
+
+.f-01 {
+    background-image: url('../../assets/foto01.jpeg');
+}
+.f-02 {
+    background-image: url('../../assets/foto02.jpeg');
+}
+.f-03 {
+    background-image: url('../../assets/foto03.jpg');
+}
+.f-04 {
+    background-image: url('../../assets/foto04.jpg');
+}
+.f-05 {
+    background-image: url('../../assets/foto05.jpg');
+}
+.f-06 {
+    background-image: url('../../assets/foto06.jpg');
+}
+.f-07 {
+    background-image: url('../../assets/foto07.jpg');
+}
+.f-08 {
+    background-image: url('../../assets/foto08.jpg');
+}
+.f-09 {
+    background-image: url('../../assets/foto09.jpg');
+}
+
+
+@media(max-width:1280px){
+    .ft{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 1%;
+    }
+    .fts{
+        height: px;
+        width: px;
+    }
+}
+
+@media(max-width:768px){
+    .ft{
+        height: 9000px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .fts{
+        margin-left: 5%;
+        height: 900px;
+        width: 670px;
+    }
+}
+
+@media(max-width:480px){
+    .ft{
+        height: 6000px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fts{
+        margin-left: 1%;
+        height: 600px;
+        width: 450px;
+    }
+}

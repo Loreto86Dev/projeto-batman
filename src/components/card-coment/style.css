@@ -1,0 +1,13 @@
+.card-cmt {
+    height: 200px;
+    width: auto;
+    background-color: #000;
+    border: solid aliceblue; border-radius: 20px;
+    transition: 2s;
+}
+
+.card-cmt:hover {
+    transform: scale(1.03);
+    background-color:rgb(59, 58, 58);
+    border: solid aliceblue; border-radius: 20px;
+}

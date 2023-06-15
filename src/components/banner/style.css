@@ -1,0 +1,28 @@
+.banner {
+    background-image: url('https://mundoconectado.com.br/uploads/chamadas/the-batman-na-hbo-max.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 100%;
+}
+
+@media(max-width:480px){
+    .banner {
+        background-position: 20% 20%;
+        margin-left: 10px;
+    }
+
+}
+
+@media(max-width:768px){
+    .banner {
+        background-position: 30% 30%;
+    }
+}
+
+@media(max-width:1280px){
+    .banner {
+        background-position: 40% 40%;
+    }
+}
